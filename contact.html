@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Contact Page</title>
+	<meta charset="utf-8">
+	<!-- Author: Shakira Aljahmee -->
+	<link rel="stylesheet" href="styles.css" type="text/css"/>
+</head>
+<body background="images/jett.jpg">
+	<header>
+		<h1>
+			<img src="images/logo.png" alt="image of valorant logo, the word valorant in all caps" height="100" width="500"/>
+		</h1>
+			<nav>
+		<b><a href="index.html">Home</a></b> &nbsp;
+		<b><a href="agents.html">Meet the Agents!</a></b> &nbsp;
+		<b><a href="gamemodes.html">Game Modes</a></b> &nbsp;
+		<b><a href="yourclips.html">Your Clips!</a></b> &nbsp;
+		<b><a href="contact.html">Contact Us</a></b> &nbsp;	
+			</nav>
+	</header>
+	</head>
+<body>
+	<header>
+	<h2>CONTACT US</h2>
+<form action="mailto:shakiravega966@gmail.com" method="get" enctype="multipart/form-data" >
+<fieldset><legend>Your Information</legend>
+
+	<label>First Name:</label><input placeholder="ex.John" type="text" name="firstname" id="firstname" placeholder="ex.John" tabindex="1" required>
+	<label>Last Name:</label><input placeholder="ex.Smith" type="text" name="lastname" id="lastname" placeholder="ex.Smith"tabindex="2" required>
+<br><br>
+	
+	<label>Display Name:</label><input type="text" name="displayname" id="displayname" tabindex="3" required>
+<br><br>
+
+	<label>E-mail:</label><input type="email" name="email" id="email" tabindex="4" required>
+<br><br>	
+</fieldset>
+<fieldset><legend>Get Featured On Website! (optional)</legend>
+
+	<label>What's Your Favorite Agent?</label>
+	<select>
+		<option>Astra</option><option>Breach</option><option>Brimstone</option>
+		<option>Cypher</option><option>Jett</option><option>Killjoy</option>
+		<option> Omen</option><option>Phoenix</option><option>Raze</option>
+		<option>Reyna</option><option>Sage</option><option>Skye</option><option>Sova</option>
+		<option>Viper</option><option>Yoru</option>
+	</select>
+<br><br>
+<label for="Ranking">What Rank are You?</label>
+<input list="valrank" id="rank" name="rank" />
+<datalist id="valrank">
+  <option value="iron" name="rank">
+  <option value="bronze" name="rank">
+  <option value="silver" name="rank">
+  <option value="gold" name="rank">
+  <option value="plat" name="rank">
+  <option value="diamond" name="rank">
+</datalist>
+<br><br>
+
+	<label>Let's See Your Best Clip!</label><input type="file" id="file" name="file">
+<br><br>	
+</fieldset>
+	<label>Leave a Comment</label><br>
+	<textarea placeholder="what would you like us to know?"></textarea>
+<br><br>
+	
+<br><br>	
+	<input type="radio" id="radio" name="radio">
+	<span class="radio-text">Yes, I'd like to receive emails!</span>
+<br><br>
+	
+	<input type="submit" value="SUBMIT" id="submit"> <input type="reset" value="RESET" id="reset">
+</form>
+</body>
+</html>
+			<footer>
+			<div class="footer"></div>
+			<em>For educational purposes only - Dearborn, MI &copy; 2021</em>
+			</footer>
+</body>			
+</html>
